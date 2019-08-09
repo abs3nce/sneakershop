@@ -1,0 +1,55 @@
+.banner {
+    background-image: url("/assets/images/main_banner_edit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.section2 {
+    background-image: url("/assets/images/section_2_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .product {
+        //karta
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 20vw;
+        height: 17vw;
+        background-color: white;
+
+        .description {
+            //text
+            color: #000;
+            font-size: 40px;
+            //format
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+
+
+        margin: 15px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .product-photo {
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+}

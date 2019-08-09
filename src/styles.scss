@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Major Mono Display', monospace;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    margin-top: 128px;
+}
